@@ -14,7 +14,7 @@ int main() {
 	// cetak daftar nilai mahasiswa yang lulus 
 	printf("\nDaftar nilai mahasiswa yang lulus:\n");
 	for(i=0;i<10;i++){
-		if(nilai[i>=60]){
+		if(nilai[i] >= 60){
 			printf("Nilai mahasiswa ke-%d:%d\n",i+1,nilai[i]);
 		}
 	}
